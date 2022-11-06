@@ -14,6 +14,8 @@ public class MyInfo implements Serializable {
     private String Telefono;
     private String Fecha;
     private  Boolean genero;
+    private String edad;
+    private Boolean notifi;
 
     public String getNombre() {
         return Nombre;
@@ -69,6 +71,22 @@ public class MyInfo implements Serializable {
 
     public void setGenero(Boolean genero) {
         this.genero = genero;
+    }
+
+    public String getEdad() {
+        return edad;
+    }
+
+    public void setEdad(String edad) {
+        this.edad = edad;
+    }
+
+    public Boolean getNotifi() {
+        return notifi;
+    }
+
+    public void setNotifi(Boolean notifi) {
+        this.notifi = notifi;
     }
 
     public MyInfo(){
